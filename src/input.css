@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vibur&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+@apply border px-2 py-1 sm:py-2 md:px-6 md:py-2 shadow-lg rounded-md
+}
+.card{
+@apply flex justify-center flex-col items-center mb-10 gap-5 lg:grid lg:grid-rows-4 lg:place-content-start hover:border-t-2 transition duration-300 ease-in-out
+}
+.btnHover{
+  @apply hover:bg-white hover:text-btn transition duration-300 ease-in-out
+}
